@@ -1,0 +1,62 @@
+#1
+numero_decimal = 25
+numero_binario = bin(numero_decimal)
+
+print("La conversión de decimal a binario es:", numero_binario)
+
+#2
+numero_binario = "1101"
+numero_decimal = int(numero_binario, 2)
+
+print("La conversión de binario a decimal es:", numero_decimal)
+
+#3
+numero_decimal = 42
+numero_octal = oct(numero_decimal)
+
+print("La conversión de decimal a octal es:", numero_octal)
+
+#4
+numero_octal = "74"
+numero_decimal = int(numero_octal, 8)
+
+print("La conversión de octal a decimal es:", numero_decimal)
+
+#5
+numero_decimal = 187
+numero_hexadecimal = hex(numero_decimal)
+
+print("La conversión de decimal a hexadecimal es:", numero_hexadecimal)
+
+#6
+numero_hexadecimal = "7F"
+numero_decimal = int(numero_hexadecimal, 16)
+
+print("La conversión de hexadecimal a decimal es:", numero_decimal)
+
+#7
+numero_binario = "101011"
+numero_decimal = int(numero_binario, 2)
+numero_octal = oct(numero_decimal)
+
+print("La conversión de binario a octal es:", numero_octal)
+
+#8
+numero_octal = "67"
+numero_decimal = int(numero_octal, 8)
+numero_binario = bin(numero_decimal)
+
+print("La conversión de octal a binario es:", numero_binario)
+
+#9
+numero_binario = "1101101"
+numero_decimal = int(numero_binario, 2)
+numero_hexadecimal = hex(numero_decimal)
+
+print("La conversión de binario a hexadecimal es:", numero_hexadecimal)
+
+#10
+numero_hexadecimal = "3A"
+numero_binario = bin(int(numero_hexadecimal, 16))
+
+print("La conversión de hexadecimal a binario es:", numero_binario)

@@ -1,0 +1,15 @@
+Suma de números binarios:
+        Número binario 1: 1011
+        Número binario 2: 110
+
+Resta de números binarios:
+        Número binario 1: 10101
+        Número binario 2: 1001
+
+Multiplicación de números binarios:
+        Número binario 1: 111
+        Número binario 2: 1010
+
+División de números binarios:
+        Número binario 1: 100110
+        Número binario 2: 101

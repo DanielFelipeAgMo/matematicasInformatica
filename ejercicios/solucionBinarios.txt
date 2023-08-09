@@ -1,0 +1,31 @@
+#1
+binario_1 = "1011"
+binario_2 = "110"
+
+suma_binarios = bin(int(binario_1, 2) + int(binario_2, 2))[2:]
+
+print("La suma de los números binarios es:", suma_binarios)
+
+#2
+binario_1 = "10101"
+binario_2 = "1001"
+
+resta_binarios = bin(int(binario_1, 2) - int(binario_2, 2))[2:]
+
+print("La resta de los números binarios es:", resta_binarios)
+
+#3
+binario_1 = "111"
+binario_2 = "1010"
+
+multiplicacion_binarios = bin(int(binario_1, 2) * int(binario_2, 2))[2:]
+
+print("La multiplicación de los números binarios es:", multiplicacion_binarios)
+
+#4
+binario_1 = "100110"
+binario_2 = "101"
+
+division_binarios = bin(int(binario_1, 2) // int(binario_2, 2))[2:]
+
+print("La división de los números binarios es:", division_binarios)

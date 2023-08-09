@@ -1,0 +1,160 @@
+#1
+import math
+
+num_letras = len("PYTHON")
+num_permutaciones = math.factorial(num_letras)
+
+print("El número de formas de organizar las letras de 'PYTHON' es:", num_permutaciones)
+
+#2
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+def combinaciones(n, r):
+    return factorial(n) // (factorial(r) * factorial(n - r))
+
+# Datos del problema
+num_platos_principales = 5
+num_platos_elegir = 3
+
+# Calcular combinaciones
+combinaciones_posibles = combinaciones(num_platos_principales, num_platos_elegir)
+print("Número de combinaciones posibles:", combinaciones_posibles)
+
+
+import math
+
+num_platos = 5
+num_seleccionados = 3
+
+num_combinaciones = math.comb(num_platos, num_seleccionados)
+
+print("El número de combinaciones diferentes de platos es:", num_combinaciones)
+
+#3
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+def permutaciones_con_repeticion(palabra):
+    n = len(palabra)
+    repeticiones = {}
+    for letra in palabra:
+        repeticiones[letra] = repeticiones.get(letra, 0) + 1
+
+    denominador = 1
+    for r in repeticiones.values():
+        denominador *= factorial(r)
+
+    return factorial(n) // denominador
+
+# Palabra dada
+palabra = "MURCIÉLAGO"
+
+# Calcular permutaciones con repetición
+num_permutaciones = permutaciones_con_repeticion(palabra)
+print("Número de permutaciones diferentes:", num_permutaciones)
+
+
+import math
+
+palabra = "MURCIÉLAGO"
+
+num_letras = len(palabra)
+num_permutaciones = math.factorial(num_letras)
+num_letras_repetidas = palabra.count('A') * palabra.count('L')
+
+num_permutaciones_diferentes = num_permutaciones // num_letras_repetidas
+
+print("El número de permutaciones diferentes es:", num_permutaciones_diferentes)
+
+#4
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+def combinaciones(n, r):
+    return factorial(n) // (factorial(r) * factorial(n - r))
+
+# Datos del problema
+num_cartas_totales = 52
+num_ases = 4
+num_cartas_seleccionadas = 5
+
+# Calcular combinaciones totales
+combinaciones_totales = combinaciones(num_cartas_totales, num_cartas_seleccionadas)
+
+# Calcular combinaciones sin as
+combinaciones_sin_as = combinaciones(num_cartas_totales - num_ases, num_cartas_seleccionadas)
+
+# Calcular combinaciones con al menos un as
+combinaciones_con_al_menos_un_as = combinaciones_totales - combinaciones_sin_as
+
+print("Número de combinaciones diferentes con al menos un as:", combinaciones_con_al_menos_un_as)
+
+
+import math
+
+num_ases = 4
+total_cartas = 52
+num_seleccionadas = 5
+
+combinaciones_sin_as = math.comb(total_cartas - num_ases, num_seleccionadas)
+combinaciones_totales = math.comb(total_cartas, num_seleccionadas)
+
+combinaciones_con_al_menos_un_as = combinaciones_totales - combinaciones_sin_as
+
+print("El número de combinaciones con al menos un as es:", combinaciones_con_al_menos_un_as)
+
+#5
+import math
+
+# Datos del problema
+num_elementos = 6
+
+# Calcular el número de subconjuntos utilizando math.pow()
+num_subconjuntos = int(math.pow(2, num_elementos))
+
+print("Número de subconjuntos diferentes:", num_subconjuntos)
+
+
+num_elementos = 6
+num_subconjuntos = 2 ** num_elementos
+
+print("El número de subconjuntos diferentes es:", num_subconjuntos)
+
+#6
+# Dígitos disponibles
+digitos_disponibles = [1, 2, 3, 4]
+
+# Inicializar contador de números de 3 dígitos
+num_numeros_3_digitos = 0
+
+# Generar los números de 3 dígitos sin repetición de dígitos
+for digito_centenas in digitos_disponibles:
+    for digito_decenas in digitos_disponibles:
+        for digito_unidades in digitos_disponibles:
+            # Verificar que los dígitos sean diferentes
+            if (digito_centenas != digito_decenas) and (digito_centenas != digito_unidades) and (digito_decenas != digito_unidades):
+                # Formar el número de 3 dígitos y contarlo
+                numero_3_digitos = digito_centenas * 100 + digito_decenas * 10 + digito_unidades
+                num_numeros_3_digitos += 1
+
+print("Número de números de 3 dígitos sin repetir los dígitos:", num_numeros_3_digitos)
+
+
+import math
+
+num_digitos = 4
+num_digitos_seleccionados = 3
+
+num_arreglos = math.perm(num_digitos, num_digitos_seleccionados)
+
+print("El número de números de 3 dígitos sin repetir es:", num_arreglos)

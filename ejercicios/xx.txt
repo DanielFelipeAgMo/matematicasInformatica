@@ -1,0 +1,17 @@
+    Ejercicio de permutaciones:
+        ¿De cuántas formas se pueden organizar las letras de la palabra "PYTHON"?
+
+    Ejercicio de combinaciones:
+        Un menú de un restaurante ofrece 5 platos principales y los comensales pueden elegir 3 platos para su comida. ¿Cuántas combinaciones diferentes de platos se pueden hacer?
+
+    Ejercicio de permutaciones con elementos repetidos:
+        En una palabra como "MURCIÉLAGO", ¿cuántas permutaciones diferentes se pueden hacer si las letras "A" y "L" están repetidas?
+
+    Ejercicio de combinaciones con elementos repetidos:
+        En una baraja de cartas, hay 4 ases y 52 cartas en total. Si se seleccionan 5 cartas al azar, ¿cuántas combinaciones diferentes hay que contengan al menos un as?
+
+    Ejercicio de conteo de subconjuntos:
+        Dado un conjunto de 6 elementos, ¿cuántos subconjuntos diferentes se pueden formar?
+
+    Ejercicio de conteo de arreglos:
+        ¿Cuántos números de 3 dígitos se pueden formar usando los dígitos 1, 2, 3 y 4 sin repetir los dígitos?

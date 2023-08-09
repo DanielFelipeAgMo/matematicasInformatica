@@ -1,0 +1,29 @@
+    Conversión de decimal a binario:
+        Número decimal: 25
+
+    Conversión de binario a decimal:
+        Número binario: 1101
+
+    Conversión de decimal a octal:
+        Número decimal: 42
+
+    Conversión de octal a decimal:
+        Número octal: 74
+
+    Conversión de decimal a hexadecimal:
+        Número decimal: 187
+
+    Conversión de hexadecimal a decimal:
+        Número hexadecimal: 7F
+
+    Conversión de binario a octal:
+        Número binario: 101011
+
+    Conversión de octal a binario:
+        Número octal: 67
+
+    Conversión de binario a hexadecimal:
+        Número binario: 1101101
+
+    Conversión de hexadecimal a binario:
+        Número hexadecimal: 3A
